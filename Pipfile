@@ -7,6 +7,7 @@ name = "pypi"
 django-static-fontawesome = "*"
 django = "*"
 pillow = "*"
+whitenoise = "==5.1.0"
 
 [dev-packages]
 
