@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div id="blok">
+<h1> Kirish</h1>
+</div>
+
+ <br>
+<form action="" method="post" > {% csrf_token %}
+    {{form.as_p}}
+       <button  type="submit"> KIRISH </button>
+
+</form>
+
+{% endblock %}
